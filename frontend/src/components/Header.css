@@ -1,0 +1,20 @@
+.header {
+    background-color: #333; /* Header arka plan rengi */
+    color: #fff; /* Header metin rengi */
+    padding: 10px 20px; /* Header iç kenar boşluğu */
+  }
+  
+  .navbar-container {
+    display: flex; /* Linkleri yatayda sıralar */
+  }
+  
+  .navbar-link {
+    color: #fff; /* Link metin rengi */
+    text-decoration: none; /* Link altı çizgi kaldırma */
+    margin-right: 20px; /* Linkler arası boşluk */
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde link altı çizgi */
+  }
+  

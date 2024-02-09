@@ -1,0 +1,28 @@
+.show-leaves-container {
+    margin: 20px;
+  }
+  
+  .leaves-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .leaves-table th, .leaves-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .leaves-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .leaves-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .leaves-table tr:hover {
+    background-color: #ddd;
+  }
+  
