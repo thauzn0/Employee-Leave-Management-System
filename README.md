@@ -1,33 +1,33 @@
 # Employee Leave Management System
 
-Bu proje, bir şirkette çalışanların izin günlerini yönetmek ve raporlamak için kullanılan bir uygulamadır. Bu uygulama, Java Spring Boot ile geliştirilmiş bir backend ve React.js ile geliştirilmiş bir frontend içerir.
+This project is an application used to manage and report vacation days of employees in a company. This application includes a backend developed with Java Spring Boot and a frontend developed with React.js.
 
-## Başlangıç
+## Starting
 
-Bu adımları izleyerek uygulamayı yerel geliştirme ortamınızda çalıştırabilirsiniz.
+Follow this steps to running app in local.
 
-### Gereksinimler
+### Requirements
 
-- Java 17 veya daha yeni bir sürüm
+- Java 17 
 - Maven
 - Node.js
 - npm veya Yarn
 - Git
 
-### Yükleme
+### Downloading
 
-1. Depoyu klonlayın:
+1. Clone repo:
 
 ```bash
 git clone https://github.com/thauzn0/KafeinStajProjesi.git
 ```
 
-2. Backend'i çalıştırın:
+2. Run backend:
 ```bash
 cd backend
 ./mvnw spring-boot:run
 ```
-Bu komut, Spring Boot uygulamasını başlatır ve http://localhost:8080 adresinde çalışır.
+This command, starting Spring boot project and running on  http://localhost:8080 address.
 
 Endpoints
 
@@ -53,14 +53,14 @@ Endpoints
 
 /employees/{id} [DELETE] Endpoint to delete an employee by id.
 
-3. Frontend'i çalıştırın:
+3. Run Frontend:
 ```bash
 cd frontend
 npm install
 npm start
 ```
-Bu komut, React uygulamasını başlatır ve http://localhost:3000 adresinde çalışır. Tarayıcınızda bu adresi açarak uygulamayı görüntüleyebilirsiniz.
+This command , starting React app and running on http://localhost:3000 adress. You can open this address in your browser and use.
 
 # Kullanım
 
-Uygulama başlatıldıktan sonra, http://localhost:3000 adresine giderek React frontend'ini ziyaret edebilirsiniz. Kullanıcılar sisteme giriş yapabilir, izin günlerini yönetebilir ve raporlayabilir.
+After app starting, going to this http://localhost:3000 adress You can see frontend which programmed with React.
