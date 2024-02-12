@@ -23,11 +23,9 @@ git clone https://github.com/thauzn0/KafeinStajProjesi.git
 ```
 
 2. Run backend:
-```bash
-cd backend
-./mvnw spring-boot:run
-```
-This command, starting Spring boot project and running on  http://localhost:8080 address.
+
+Start Spring boot project and running on  http://localhost:8080 address.
+Do your db properties/settings.
 
 Endpoints
 
